@@ -18,19 +18,38 @@
 
   
   .header{
+      display: flex;
       background-color: aqua;
       height: 100px;
+      justify-content: center;
+      align-items: center;
     }
 
-    header > div{
-        background-color: orange;
-    }
 
     .navigation{
         display: flex;
-        justify-content: space-between;
     }
-    
+
+    .logo{
+        width: 300px;
+        height: 30px;
+        background-color: orange;
+        border: dashed 2px black;
+    }
+
+    .links{
+        width: 400px;
+        height: 30px;
+        background-color: orange;
+        border: dashed 2px black;
+    }
+
+    .login{
+        width: 300px;
+        height: 30px;
+        background-color: orange;
+        border: dashed 2px black;
+    }
 
     li{
         display: inline;
@@ -141,17 +160,26 @@
     display: flex;
     height: 100px;
     background-color: rgb(43, 42, 42);
+   }
+
+   .cont-logo-button{
+    display: flex;
+    height: 70px;
+    background-color: cornflowerblue;
     justify-content: space-between;
+    align-items: center;
    }
 
    .last-logo{
     height: 50px;
     width: 100px;
     background-color: yellow;
+    border: dashed 2px black;   
    }
 
    .last-button{
     height: 50px;
     width: 100px;
-    background-color: yellow;   
+    background-color: yellow;
+    border: dashed 2px black;   
 }
